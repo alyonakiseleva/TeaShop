@@ -245,15 +245,17 @@ ul{
 .join{
     background-color:  #F7F2EA;
     margin-top: 150px;
-    background-image: url('../images/tea\ 1.jpg');
-    background-repeat: no-repeat;
-    background-position-x: right ;
+    
    
   
 }
 .join__invite{
     display: flex;
     flex-direction: column;
+    background-image: url('../images/tea\ 1.jpg');
+    background-size: 673px;
+    background-repeat: no-repeat;
+    background-position-x:right ;
     
 }
 
@@ -339,7 +341,214 @@ ul{
     font-family: "Open Sans", sans-serif;
   
 }
+
 .footer{
     margin-top: 150px;
+    background-color:rgba(247, 242, 234, 1);
     min-height: 593px;
+}
+.footer__content{
+   min-height: 553px;
+    
+    display: flex;
+    flex-direction: row;
+    gap:0 155px;
+}
+.productsAndCompany{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    
+
+}
+.sloganAndContacts{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.about_us{
+    display: flex;
+    flex-direction: row;
+    gap: 0 213px;
+    
+}
+.products{
+    min-width: 97px;
+    max-height: 269px;
+
+}
+.company{
+    min-width: 155px;
+    max-height: 353px;
+
+}
+
+.footer__inner__title{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.footer__block{
+    margin-top: 50px;
+   
+}
+.footer__list{
+    padding: 0;
+    margin: 0;
+}
+.about_us__item{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+.about_contacts{
+    display: flex;
+    flex-direction: row;
+    gap: 0 41px;
+}
+.definition__text{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 20px;
+    max-width: 269px;
+    margin-top: 79px;
+   
+}
+.tea__definition{
+    max-height: 353px;   
+}
+.StayInTouch{
+    max-height: 287px;
+    max-width: 270px;
+    
+
+}
+.definition__autor{
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    max-width: 129px;
+    max-height: 32px;
+}
+
+.StayInTouch__text{
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.Tealuxe{
+    margin-bottom: 18px;
+}
+
+.Logo__Footer{
+    width: 57px;
+    height: 91px;
+    margin: 0;
+}
+
+.connect{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 0 40px;
+}
+.connect__address{
+    margin-top: 20px;
+    min-width: 136px;
+    min-height: 60px;
+}
+.social_network{
+    margin-left: 97px;
+    margin-top: 50px;
+    min-width: 150px;
+    min-height: 22px;
+}
+
+
+.social_network__icon_facebook, .social_network__icon_instagram{
+    display: inline-block;
+    margin-right: 20px;
+    width: 22px;
+    height: 22px;
+}
+
+.social_network__icon_YouTube{
+    display: inline-block;
+    margin-right: 20px;
+    width: 24px;
+    height: 18px;
+}
+.social_network__icon_twitter{
+    display: inline-block;
+    
+    width: 22px;
+    height: 18px;
+}
+.icon_telephone{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+
+}
+.icon_email{
+    width: 22px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 10px;
+
+
+}
+.connect_telephone{
+    margin-bottom: 20px;
+}
+.pay_way{
+    display: inline-block;
+    margin-left: 187px;
+    min-width: 155px;
+    min-height: 20px;
+}
+.connect_address__item{
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+
+}
+.Tealuxe_text{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+.logo_pay{
+    display: inline-block;
+}
+#logo_paypal{
+    margin-right: 0;
+    width:10px ;
+    height:12px ;
+    margin: 4px 0 4px 0;
+}
+#logo_mastercard{
+    width:26px ;
+    height:20px ;
+    margin: 0;
+}
+#logo_VISA{
+    width:31px ;
+    height:10px ;
+    margin: 5px 20px;
+}
+#logo_google-pay{
+    width:29px ;
+    height:12px ;
+    margin: 4px 20px 4px 0;
 }
