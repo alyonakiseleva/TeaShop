@@ -64,7 +64,7 @@ ul{
     background-image: url('../images/bg_img.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: bottom center;
+    background-position: bottom center;
 }
 
 .top__inner{
@@ -93,7 +93,7 @@ ul{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 396px;
     min-height: 355px;
 }
 .collection__items{
@@ -124,36 +124,48 @@ ul{
 .collection__item p{
     margin-bottom: 0;
 }
+.quotation{
+    margin-top: 150px;
+}
  
 .quotation__inner{      
-    margin-top: 150px;  
+     
+    position: relative;
+    /* z-index: 0; */
 }
 
 .quotation__text{   
+   margin: 0;
+   position: absolute;
+   left:248px;
+   bottom: -110px;
     text-align: center;
     font-size: 40px;
     font-style: italic;
-    margin: 0 auto;
+   z-index: 0;
     max-width: 704px;
+   margin: 0 auto;
 }
 
 .quotation__rectangle{   
-    min-width: 359px;
-    min-height: 61px;
-    background-color: #F7F2EA;
-    border: 2px solid #000;
+    width: 359px;
+    height: 61px;
+    background-color: #F7F2EA;  
+    opacity: 50%; 
+    position: absolute;
+    left: 632px;
+    bottom: -122px;
+    z-index: -1;
 }
 
 .reviews{
     margin-top: 150px;
     background-color:rgba(247, 242, 234, 0.5);
-    
-   
 }
+
 .review__block{
     display: flex;
     flex-direction: column;
-  
 }
 
 .reviews_list{
@@ -175,7 +187,7 @@ ul{
 }
 
 .reviews__text{
-    font-style: 16px;
+    font-size: 16px;
     font-weight: 300;
     font-style: italic;
     margin-top: 0;
@@ -240,44 +252,103 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
 }
+
+
+/* Форма подписки на рассылку */
+
 .join{
-    background-color:  #F7F2EA;
-    margin-top: 150px;
-    
-   
-  
+    margin-top: 150px;    
+    background-color:rgba(247, 242, 234, 1);
+    background-image:url('../tea\ 1\ \(2\).png');
+    background-size: auto;
+    background-repeat:no-repeat;
+    background-position:right;
 }
+
+.join__inviting{
+    display: flex;
+    flex-direction: column ;
+    
+}
+
 .join__invite{
     display: flex;
-    flex-direction: column;
-    background-image: url('../images/tea\ 1.jpg');
-    background-size: 673px;
-    background-repeat: no-repeat;
-    background-position-x:right ;
+    flex-direction: row;
+    gap: 0 40px;
+    margin-bottom: 100px;
+    max-width: 1198px;
+    font-family: "Open Sans", sans-serif;
     
 }
-
-.join__inviting, .join__email{
-    max-width: 580px;
-    border: 2px solid #000;
-}
-.join__title{
-    font-style: 40px;
+.join__title{    
+    margin: 100px 0 50px 0;
+    font-size: 40px;
     font-weight: 400;
-
+   
 }
-.invite{
-    display: flex;
-    flex-direction: row ;
-    align-items: center;
-    gap: 0 40px;
+.join__invait__text, .join__invait__subscription{
+    max-width: 580px;  
 }
-.join__inviting{
-    font-family: "Open Sans", sans-serif;
+.join__invait__text{
+    font-size: 20px;
     font-weight: 300;
 }
+.join__invait__subscription{
+    display: flex;
+    flex-direction: column;
+
+  
+}
+.join__email__form{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 0 25px;
+
+}
+.join__confidentiality{
+    margin-top: 6px;  
+    display: flex;
+    flex-direction: row;
+    gap: 0 10px;
+    align-items: start;
+}
+.join__confidentiality__checkbox{
+    margin: 0;
+    margin-top:  4px;
+
+    height: 10px;
+    width: 10px;
+
+}
+.join__confidentiality__text{
+    margin: 0;
+    font-size: 13px;
+}
+.join__email__address{
+    border: none;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(184, 181, 139, 1);
+    background: inherit;
+    color: rgba(184, 181, 139, 1);
+    flex-grow: 1;
+    padding: 0;
+    padding-left: 15px;
+    padding-bottom: 2px;
+}
+
+.join__email__button{
+    height: 51px;
+    width: 116px;
+    font-family:"Cormorant", serif;
+    font-size:20px;
+    font-weight:300 ;
+    color: rgba(21, 22, 24, 1);
+    padding: 12px 41px;
+    border: 1px solid rgba(21, 22, 24, 1);
+}
+
 
 .priorities{
     margin-top: 150px;
@@ -552,3 +623,4 @@ ul{
     height:12px ;
     margin: 4px 20px 4px 0;
 }
+
