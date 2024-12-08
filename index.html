@@ -6,17 +6,22 @@
     <title>TeaLuxe</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="header__inner">
+                <div class="header__burger" onclick="burgerMenu(this)">
+                    <div class="b1"></div>
+                    <div class="b2"></div>
+                    <div class="b3"></div>
+                    <div class="b4"></div>
+                </div>
                 <a href="#" class="logo">
                     <img src="images/logo.svg" alt="logo">
                 </a>
@@ -108,7 +113,7 @@
                 <div class="blog__teaBlog">
                     <h2 class="teaBlog_title">Our Tea Blog</h2>
                     <div class="teaBlog__articles">
-                        <div class="teaBlog__Item">
+                        <div class="teaBlog__Item" id="firstItem">
                             <img src="./images/TeaBlog_img/RobinsonCrusoe.jpg" alt="">
                             <div class="article__about">
                                 <h3 class="article__title">Tea Time Travels: Funny Moments from Around the World</h3>
@@ -116,7 +121,7 @@
                                 <a href="" class="read">Read ></a>
                              </div>
                         </div>    
-                        <div class="teaBlog__Item">
+                        <div class="teaBlog__Item" id="secondItem">
                             <img src="./images/TeaBlog_img/Joker.jpg" alt="">
                             <div class="article__about">
                                 <h3 class="article__title">The Role of Tea in Mental Health
@@ -125,7 +130,7 @@
                                 <a href="" class="read">Read ></a>
                             </div>
                         </div>                        
-                        <div class="teaBlog__Item">
+                        <div class="teaBlog__Item" id="thirdItem">
                             <img src="./images/TeaBlog_img/Casper_the_Friedly_Ghost.jpg" alt="">
                             <div class="article__about">
                                 <h3 class="article__title">Tea-rific Tales: Hilarious Stories from Tea Lovers</h3>
@@ -133,7 +138,7 @@
                                 <a href="" class="read">Read ></a>
                             </div>
                         </div>
-                        <div class="teaBlog__Item">
+                        <div class="teaBlog__Item" id="fourthItem">
                             <img src="./images/TeaBlog_img/Author_Authorius.jpg" alt="">
                             <div class="article__about">
                                 <h3 class="article__title">Tea and Caffeine: Effects on the Brain and Behavior</h3>
@@ -245,35 +250,39 @@
                             <div class="StayInTouch">
                                 <h3 class="footer__inner__title">Stay In Touch</h3>
                                 <p class="StayInTouch__text">Please feel free to contact us via the email of phone. We would be happy to hear from you!</p>
-                                <div class="connect">
-                                    <a href="#" class="Logo__Footer">
-                                        <img src="./images/Logo__Footer.png" alt="logo">
-                                    </a>
-                                    <div class="connect__address">
-                                        <div class="connect_telephone">
-                                            <img src="./images/icons/icon_telephone.svg" alt="" class="icon_telephone"> 
-                                            <span class="connect_address__item">+370 680 123456</span>
-                                        </div>
-                                        <div class="connect_email">
-                                            <img src="./images/icons/icon_email.svg" alt="" class="icon_email">
-                                            <span class="connect_address__item">info@tealuxe.com</span>
+                                    
+                                <div class="footer__connect">
+                                    <div class="connect">
+                                        <a href="#" class="Logo__Footer">
+                                            <img src="./images/Logo__Footer.png" alt="logo">
+                                        </a>
+                                        <div class="connect__address">
+                                            <div class="connect_telephone">
+                                                <img src="./images/icons/icon_telephone.svg" alt="" class="icon_telephone"> 
+                                                <span class="connect_address__item">+370 680 123456</span>
+                                            </div>
+                                            <div class="connect_email">
+                                                <img src="./images/icons/icon_email.svg" alt="" class="icon_email">
+                                                <span class="connect_address__item">info@tealuxe.com</span>
+                                            </div>
                                         </div>
                                     </div>
+                                    <div class="social_network">
+                                        <a href="" class="social_network__icon_facebook">
+                                            <img src="./images/icons/icon_facebook.svg" alt="logo">
+                                        </a>
+                                        <a href="" class="social_network__icon_YouTube">
+                                            <img src="./images/icons/icon_YouTube.svg" alt="logo">
+                                        </a>
+                                        <a href="" class="social_network__icon_instagram">
+                                            <img src="./images/icons/icon_instagram.svg" alt="logo">
+                                        </a>
+                                        <a href="" class="social_network__icon_twitter">
+                                            <img src="./images/icons/icon_twitter.svg" alt="logo" >
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="social_network">
-                                    <a href="" class="social_network__icon_facebook">
-                                        <img src="./images/icons/icon_facebook.svg" alt="logo">
-                                    </a>
-                                    <a href="" class="social_network__icon_YouTube">
-                                        <img src="./images/icons/icon_YouTube.svg" alt="logo">
-                                    </a>
-                                    <a href="" class="social_network__icon_instagram">
-                                        <img src="./images/icons/icon_instagram.svg" alt="logo">
-                                    </a>
-                                    <a href="" class="social_network__icon_twitter">
-                                        <img src="./images/icons/icon_twitter.svg" alt="logo" >
-                                    </a>
-                                </div>
+
                             </div>
                         </div>
 
