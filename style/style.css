@@ -1,12 +1,10 @@
 html{
     box-sizing: border-box;
 }
-
 *, *::after,
 *::before {
     box-sizing: inherit;
 }
-
 img{
     display: block;
     max-width: 100%;
@@ -17,22 +15,18 @@ body{
     font-family:"Cormorant", serif;
     font-weight: 400;
 }
-
 a{
     text-decoration: none;
     color: inherit;
 }
-
 ul{
     list-style: none;
 }
-
 .container{
     margin: 0 auto;
     max-width: 1240px;
     padding-left: 20px;
     padding-right: 20px;
-
 }
 .header__burger{
     width: 40px;
@@ -48,15 +42,12 @@ ul{
 .b1{
     margin: 0;
 }
-
-
 .header__inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 0;
 }
-
 .menu__list{
     display: flex;
     gap: 0 65px;
@@ -64,24 +55,20 @@ ul{
     font-size: 18px;
     font-family: "Open Sans", sans-serif;
 }
-
 .user-actions{
     display: flex;
     align-items: center;
     gap: 0 20px;
 }
-
 .user-actions__item-search{
     margin-left: 100px;
 }
-
 .top{
     background-image: url('../images/bg_img.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
 }
-
 .top__inner{
     min-height: 500px;
     color: white;
@@ -89,21 +76,18 @@ ul{
     flex-direction: column;
     justify-content: flex-end;
 }
-
 .top__title{
     font-size: 60px;
     max-width: 780px;
     margin-bottom: 20px;
     font-weight: 400;
 }
-
 .top__text{
     font-size: 24px;
     max-width: 558px;
     margin-bottom: 48px;
     font-weight: 400;
 }
-
 .tea_collection{
     display: flex;
     flex-direction: column;
@@ -134,24 +118,18 @@ ul{
     margin-top: 0;
     margin-bottom: 60px;
 }
-
 .collection__item{
     font-size: 24px;
 }
-
 .collection__item p{
     margin-bottom: 0;
 }
 .quotation{
     margin-top: 150px;
-}
- 
-.quotation__inner{      
-     
+} 
+.quotation__inner{           
     position: relative;
-    /* z-index: 0; */
 }
-
 .quotation__text{   
    margin: 0;
    position: absolute;
@@ -191,16 +169,13 @@ ul{
     max-width: 1198px;
     font-family: "Open Sans", sans-serif;
 }
-
 .reviews__title{
     text-align: center;
     margin: 60px auto;
-
 }
 .reviews_item{
     max-width: 280px;    
 }
-
 .reviews__text{
     font-size: 16px;
     font-weight: 300;
@@ -208,18 +183,14 @@ ul{
     margin-top: 0;
     margin-bottom: 10px;
 }
-
 .reviews__autor{
     margin: 0;
     font-size: 20px;
-    font-weight: 600;
-    
+    font-weight: 600;    
 }
-
 .blog{
     margin-top: 150px;
 }
-
 .teaBlog_title{
     font-size: 40px;
     font-weight: 400;
@@ -229,10 +200,8 @@ ul{
 }
 .blog__teaBlog{
     display: flex;
-    flex-direction: column;
-   
+    flex-direction: column;   
 }
-
 .teaBlog__articles{
     display: grid;
     grid-template-columns: auto auto;
@@ -240,27 +209,22 @@ ul{
     column-gap: 58px;
     margin-bottom: 60px;
     max-width: 1142px;
-
 }
 .teaBlog__Item{
     display: flex;
     flex-direction: row;
     max-height: 180px;
-
 }
 .article__title{
     font-size: 24px;
     font-weight: 400;
     margin: 0;
-    
-    
 }
 .article__autor{
     font-size: 13px;
     font-family: "Open Sans", sans-serif;
     margin: 0;
-}
-    
+}    
 .article__about{
     margin-top: 0;
     margin-left: 20px;
@@ -268,39 +232,30 @@ ul{
     flex-direction: column;
     justify-content: space-between;
 }
-
-
-/* Форма подписки на рассылку */
-
 .join{
     margin-top: 150px;    
-    background-color:rgba(247, 242, 234, 1);
-    background-image:url('../tea\ 1\ \(2\).png');
+    background-color:rgba(247, 242, 234, 1);   
+    background-image: url('../images/join__img.png');
     background-size: auto;
     background-repeat:no-repeat;
     background-position:right;
 }
-
 .join__inviting{
     display: flex;
-    flex-direction: column ;
-    
+    flex-direction: column ;    
 }
-
 .join__invite{
     display: flex;
     flex-direction: row;
     gap: 0 40px;
     margin-bottom: 100px;
     max-width: 1198px;
-    font-family: "Open Sans", sans-serif;
-    
+    font-family: "Open Sans", sans-serif;    
 }
 .join__title{    
     margin: 100px 0 50px 0;
     font-size: 40px;
-    font-weight: 400;
-   
+    font-weight: 400;   
 }
 .join__invait__text, .join__invait__subscription{
     max-width: 580px;  
@@ -311,16 +266,13 @@ ul{
 }
 .join__invait__subscription{
     display: flex;
-    flex-direction: column;
-
-  
+    flex-direction: column;  
 }
 .join__email__form{
     margin: 0;
     display: flex;
     flex-direction: row;
     gap: 0 25px;
-
 }
 .join__confidentiality{
     margin-top: 6px;  
@@ -332,10 +284,8 @@ ul{
 .join__confidentiality__checkbox{
     margin: 0;
     margin-top:  4px;
-
     height: 10px;
     width: 10px;
-
 }
 .join__confidentiality__text{
     margin: 0;
@@ -352,7 +302,6 @@ ul{
     padding-left: 15px;
     padding-bottom: 2px;
 }
-
 .join__email__button{
     height: 51px;
     width: 116px;
@@ -363,8 +312,6 @@ ul{
     padding: 12px 41px;
     border: 1px solid rgba(21, 22, 24, 1);
 }
-
-
 .priorities{
     margin-top: 150px;
 }
@@ -373,16 +320,13 @@ ul{
     flex-direction: column;
     align-items: center;
     min-height: 286px;
-
 }
-
 .priorities__title{
     text-align: center;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 60px;
     font-size: 40px;
-
 }
 .priorities__itemTitle{
     font-size: 30px;
@@ -390,15 +334,12 @@ ul{
     font-weight: 300;
     margin-top: 0;
     margin-bottom: 10px;
-
 }
-
 .priorities__itemText{
     font-weight: 600;
     font-family: "Open Sans", sans-serif;
     margin-top: 0;
     margin-bottom: 39px;
-
 }
 .priorities__list{
     margin: 0;
@@ -408,15 +349,12 @@ ul{
     align-items: center;
     gap:0 49px;
 }
-
 .priorities__item{
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;    
 }
-
 .ViewAll{   
     align-content: center;
     border: 1px solid #151618;
@@ -426,17 +364,14 @@ ul{
     font-weight: 300;
     height: 51px;
     font-family: "Open Sans", sans-serif;
-  
 }
-
 .footer{
     margin-top: 150px;
     background-color:rgba(247, 242, 234, 1);
     min-height: 593px;
 }
 .footer__content{
-   min-height: 553px;
-    
+   min-height: 553px;    
     display: flex;
     flex-direction: row;
     gap:0 155px;
@@ -444,41 +379,31 @@ ul{
 .productsAndCompany{
     margin-top: 100px;
     margin-bottom: 100px;
-    
-    
-
 }
 .sloganAndContacts{
     margin-top: 100px;
     margin-bottom: 100px;
-
 }
 .about_us{
     display: flex;
     flex-direction: row;
     gap: 0 213px;
-    
 }
 .products{
     min-width: 97px;
     max-height: 269px;
-
 }
 .company{
     min-width: 155px;
     max-height: 353px;
-
 }
-
 .footer__inner__title{
     margin: 0;
     font-size: 24px;
     font-weight: 400;
 }
-
 .footer__block{
-    margin-top: 50px;
-   
+    margin-top: 50px;   
 }
 .footer__list{
     padding: 0;
@@ -490,7 +415,6 @@ ul{
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
 }
-
 .about_contacts{
     display: flex;
     flex-direction: row;
@@ -503,17 +427,14 @@ ul{
     font-style: italic;
     margin-bottom: 20px;
     max-width: 269px;
-    margin-top: 79px;
-   
+    margin-top: 79px;   
 }
 .tea__definition{
     max-height: 353px;   
 }
 .StayInTouch{
     max-height: 287px;
-    max-width: 270px;
-    
-
+    max-width: 270px; 
 }
 .definition__autor{
     font-size: 12px;
@@ -522,7 +443,6 @@ ul{
     max-width: 129px;
     max-height: 32px;
 }
-
 .StayInTouch__text{
     font-size: 13px;
     font-family: "Open Sans", sans-serif;
@@ -530,17 +450,14 @@ ul{
     margin-top: 50px;
     margin-bottom: 0;
 }
-
 .Tealuxe{
     margin-bottom: 18px;
 }
-
 .Logo__Footer{
     width: 57px;
     height: 91px;
     margin: 0;
 }
-
 .connect{
     display: flex;
     flex-direction: row;
@@ -558,15 +475,12 @@ ul{
     min-width: 150px;
     min-height: 22px;
 }
-
-
 .social_network__icon_facebook, .social_network__icon_instagram{
     display: inline-block;
     margin-right: 20px;
     width: 22px;
     height: 22px;
 }
-
 .social_network__icon_YouTube{
     display: inline-block;
     margin-right: 20px;
@@ -574,8 +488,7 @@ ul{
     height: 18px;
 }
 .social_network__icon_twitter{
-    display: inline-block;
-    
+    display: inline-block;    
     width: 22px;
     height: 18px;
 }
@@ -584,15 +497,12 @@ ul{
     width: 20px;
     height: 20px;
     margin-right: 10px;
-
 }
 .icon_email{
     width: 22px;
     height: 16px;
     display: inline-block;
     margin-right: 10px;
-
-
 }
 .connect_telephone{
     margin-bottom: 20px;
@@ -607,14 +517,12 @@ ul{
     font-size: 13px;
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
-
 }
 .Tealuxe_text{
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
 }
-
 .logo_pay{
     display: inline-block;
 }
@@ -644,7 +552,7 @@ ul{
 
 @media(max-width:768px){
     .container{
-        max-width: 768px;
+        max-width: 768px;       
     }
     .logo{
         margin-left: 89px;
@@ -656,6 +564,12 @@ ul{
     }
     .header__burger{
         display: block;
+    }   
+    .menu{
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: blue;
     }    
    .user-actions{
         margin: 0;
@@ -691,9 +605,9 @@ ul{
         left: 415px;
     }
     .tea_collection{    
-        margin-top: 351px;
+        margin-top: 176px;
         min-height: 582px;
-        max-width: 636px;
+        justify-content: space-around;
     }
     .collection__title{
         margin-bottom: 40px;
@@ -746,14 +660,13 @@ ul{
         margin-top: 119px;
     }
     .priorities__block{
-        max-width: 638px;
-        min-height: 489px;
-        margin-left: 45px;
+        align-content: center;        
+        min-height: 489px;      
         justify-content: center;
     }
     .priorities__list{
         row-gap: 30px;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items:center;
     }
     .footer{
@@ -765,6 +678,7 @@ ul{
     }
     .footer__content{
         gap: 67px;
+        justify-content: space-around;
     }
     .productsAndCompany{
         margin-top: 50px;       
@@ -841,7 +755,7 @@ ul{
         max-width: 450px;
         margin-left: 9px;
         margin-bottom: 50px;
-    }
+    }    
     .quotation__text{
         font-size: 16px;
         font-family: "Open Sans", sans-serif;
@@ -857,7 +771,7 @@ ul{
         left: 205px;
     }
     .tea_collection{
-        margin-top: 164px;        
+        margin-top: 0;        
     }
     .collection__title{
         margin-bottom: 30px;        
@@ -878,7 +792,7 @@ ul{
     .reviews_list{
        margin: 0;
         gap:20px;
-        row-gap: 30px;
+        row-gap: 30px;       
     }
     .reviews_item{
         max-width: 220px;
@@ -928,19 +842,14 @@ ul{
         min-height: 415px;
     }
     .priorities{
-        margin-top: 60px;
-        
+        margin-top: 60px;        
     }
     .priorities__block{
         min-height: 926px;
         margin: 0;
-        
-
     }
     .priorities__title{
-        margin-bottom: 30px;
-
-        
+        margin-bottom: 30px;        
     }
     .priorities__list{
        row-gap: 50px;
@@ -948,8 +857,7 @@ ul{
         justify-content: center;
         min-height: 848px;
     }
-    .priorities__item{
-        
+    .priorities__item{        
         max-width: 294px;
     }
     .priorities__itemText{
@@ -965,13 +873,14 @@ ul{
     }
     .about_us{
         gap: 133px;
-        
+        justify-content: space-around;        
     }
     .about_contacts{
         max-width: 460px;
     }
     .tea__definition{
         min-height: 92px;
+        margin-left: 5px;
     }
     .productsAndCompany{
         margin-bottom: 0;
@@ -991,8 +900,7 @@ ul{
     }
     .StayInTouch{
         max-width: 460px;
-        min-height: 196px;
-       
+        min-height: 196px;       
     }
     .footer__inner__title{
         text-align: center;
@@ -1002,7 +910,7 @@ ul{
         text-align: center;
     }
     .pay_way{
-        margin-left: 153px;
+        margin-left: 140px;
     }
     .connect{
         gap: 0 27px;
@@ -1015,16 +923,16 @@ ul{
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        gap: 29px;
-       
+        gap: 29px;       
     }
     .social_network{
-        margin: 0;
-        
-        
+        margin: 0;        
     }
     .connect__address{
         margin-top: 16px;
         font-size: 18px;
+    }
+    .Tealuxe{
+        margin-left: 10px;        
     }
 }
